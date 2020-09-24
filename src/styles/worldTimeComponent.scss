@@ -1,0 +1,12 @@
+@import "colors.scss";
+
+.wtc-container {
+    background-color: $color;
+    color: $lightGrayColor;
+    padding: 16px;
+}
+
+.wtc-header {
+    background-color: $grayColor;
+    text-align: center;
+}
