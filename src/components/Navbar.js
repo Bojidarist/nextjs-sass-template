@@ -7,7 +7,10 @@ class Navbar extends React.Component {
             <div className="nbc-container">
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <Link href="/">
-                        <a className="navbar-brand">WorldTimeData</a>
+                        <a className="navbar-brand">
+                            <img className="nbc-brand-icon" src="icons/wtc-icon.ico" />
+                            <a>WorldTimeData</a>
+                        </a>
                     </Link>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">

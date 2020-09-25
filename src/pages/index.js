@@ -4,6 +4,17 @@ import Layout from '../components/Layout';
 function HomePage( { data } ) {
     return (
         <div>
+            <style jsx>{`
+                .backgroundImg {
+                    position: absolute;
+                    z-index: -2;
+                    width: 100%;
+                    height: 100%;
+                }
+            `}</style>
+
+            {/* Image from 'public' folder */}
+            <img className="backgroundImg" src="images/weather-background.jpg" />
             <Layout>
                 <WorldTime data={data} />
             </Layout>
