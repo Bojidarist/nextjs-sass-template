@@ -24,7 +24,7 @@ NextJS template to easily start a new project
 
         wget https://github.com/Bojidarist/nextjs-sass-template/archive/master.zip -O nextjs-sass-template.zip  
 
-2. Change the folder name and the 'name' property in package.json to your project
+2. Change the folder name and the 'name' property in package.json and package-lock.json to your project name
 
 3. Install dependencies using:  
 
